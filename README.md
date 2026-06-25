@@ -40,21 +40,6 @@ Agent Context Kit 的解决方式很简单：
 
 `AGENTS.md` 和 handoff 可以引用项目源资料路径，但不要复制大段正文或完整内容。
 
-## 工作流
-
-```mermaid
-flowchart TD
-  A[Start a project] --> B[Install agent-context]
-  B --> C[Create root AGENTS.md]
-  B --> D[Create agent-context/AGENTS.md]
-  B --> E[Create agent-context/handoff/]
-  F[Session gets long] --> G[Update handoff]
-  H[Start new session] --> I[Read AGENTS.md]
-  I --> J[Read specified handoff]
-  J --> K[Read key source material]
-  K --> L[Continue focused work]
-```
-
 ## 推荐目录结构
 
 Skill 仓库结构：
